@@ -1,10 +1,3 @@
-tag_groups:
-  - name: ownership # map infrastructure to owner or owning team
-    tags:
-      - name: env
-        value:
-          default: ${env:GIT_BRANCH} # environment name would be the name of the feature_branch
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
