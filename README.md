@@ -1,2 +1,2 @@
 # flaskproject
-iac 
+iac scan
