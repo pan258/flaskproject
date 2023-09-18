@@ -1,5 +1,4 @@
-name: Docker Image CI
-
+name: Prisma Cloud IaC
 on:
   push:
     branches: [ "master" ]
@@ -13,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-         - name: Checkout repo
-           uses: actions/checkout@v2
-
          - name: Run prismacloud
            id: prismacloud
            uses: bridgecrewio/checkov-action@master 
