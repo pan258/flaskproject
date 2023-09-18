@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-         - name: Run prismacloud
-           id: prismacloud
+         - name: Run Prisma Cloud
+           id: Prisma Cloud
            uses: bridgecrewio/checkov-action@master 
            env:
             PRISMA_API_URL: https://api.prismacloud.io
