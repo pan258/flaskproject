@@ -11,5 +11,5 @@ COPY pom.xml /tmp/
 COPY wildfire-test-elf-file-dbs /opt/
 WORKDIR /project
 ADD . /project
-RUN pip install -r requirements.txt
+#RUN pip install -r requirements.txt
 CMD ["python","assistant.py"]
