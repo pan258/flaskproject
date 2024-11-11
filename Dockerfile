@@ -10,5 +10,6 @@ FROM python:3.8.9-alpine3.13
 COPY pom.xml /tmp/
 COPY wildfire-test-elf-file-dbs /opt/
 WORKDIR /project
+ADD . /project
 RUN pip install -r requirements.txt
 CMD ["python","assistant.py"]
