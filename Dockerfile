@@ -6,7 +6,7 @@
 #RUN pip install -r requirements.txt
 #CMD ["python","assistant.py"]
 
-FROM python:3.8.9-alpine3.13
+FROM registry.access.redhat.com/ubi8/ubi:latest
 COPY pom.xml /tmp/
 COPY wildfire-test-elf-file-dbs /opt/
 WORKDIR /project
