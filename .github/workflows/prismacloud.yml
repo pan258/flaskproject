@@ -19,3 +19,4 @@ jobs:
             PRISMA_API_URL: https://api.prismacloud.io
            with:
              api-key: ${{ secrets.BC_API_KEY }}
+             api-secret: fgfd349543056ugubf
